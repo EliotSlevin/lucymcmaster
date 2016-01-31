@@ -53,7 +53,7 @@ a:focus{ outline: none; }
 
 
 .hero{
-	max-width: 560px;
+	max-width: 495px;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
@@ -76,8 +76,8 @@ a:focus{ outline: none; }
 .hero p{
 	font-size: 21px;
 	font-weight: 300;
-	padding-left: 50px;
-	padding-right: 50px;
+	/*padding-left: 50px;
+	padding-right: 50px;*/
 	margin-bottom: 80px;
 }
 
@@ -303,6 +303,11 @@ hr{
 }
 
 
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
 
 
 
@@ -313,4 +318,37 @@ hr{
   	#inline-popups a{
 		width: 100%;
 	}	
+
+	.half{
+		width: 100%;	
+	}
+
+	.half .pr{
+		padding-right: 0;
+		border-right: none;
+	}
+
+	.cv{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.slash{
+		height: 50px;
+	}
+
+	.header-bar{
+		height: auto;
+	}
+
+	nav{
+		display: flex;
+	    flex-wrap: wrap;
+	    justify-content: flex-start;
+	}
+
+	nav a{
+		margin-left: 20px !important;
+		margin-right: 20px !important;
+	}
 }
