@@ -289,13 +289,13 @@
 	<iframe src="https://player.vimeo.com/video/150510817?title=0&byline=0&portrait=0" width="950" height="713" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	
 
-	<video id="vid" autoplay loop>
+	<video id="vid" autoplay controls loop>
 	  <source src="img/folio/CalmOS/release.mp4" type="video/mp4">
 	  Your browser does not support the video tag.
 	</video>
 
 
-	<video id="vid2"  autoplay loop>
+	<video id="vid2"  autoplay controls  loop>
 	  <source src="img/folio/CalmOS/breath.mp4" type="video/mp4">
 	  Your browser does not support the video tag.
 	</video>
@@ -336,8 +336,12 @@
 <!-- 	Javascript -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
 <script src="js/jquery.magnific-popup.min.js"></script> 
+<script src="js/jquery.fitvids.js"></script>
+
 <script>
 	$(document).ready(function() {
+
+		$(".white-popup").fitVids();
 
 			// Inline popups
 		$('#inline-popups').magnificPopup({
@@ -347,8 +351,8 @@
 		       this.st.mainClass = this.st.el.attr('data-effect');
 		    },
 		    open: function(){
-	    		document.getElementById('vid').play(); 
-	    		document.getElementById('vid2').play(); 
+	    	//	document.getElementById('vid').play(); 
+	    	//	document.getElementById('vid2').play(); 
 		    }
 
 		  },
