@@ -215,6 +215,11 @@ hr{
 	text-align: center;
 }
 
+.third img{
+	max-width: 100%;
+	padding: 3px;
+}
+
 .two-thirds{
 	width: 66.66%;
 	float: left;
