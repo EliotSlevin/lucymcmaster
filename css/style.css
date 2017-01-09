@@ -199,6 +199,11 @@ a:focus{ outline: none; }
 	overflow: hidden;
 }
 
+.brl{
+	border-left: 2px solid white;
+	overflow: hidden;
+}
+
 .pr{
 	padding-right: 20px;
 	overflow: hidden;
