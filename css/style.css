@@ -159,8 +159,8 @@ a:focus{ outline: none; }
 #inline-popups .rocket-reach{ background-image: url("../img/folio/rocket.jpg"); }
 #inline-popups .mindfull{ background-image: url("../img/folio/mindful.jpg"); }
 #inline-popups .flan{ background-image: url("../img/folio/flan.jpg"); }
-#inline-popups .learnux{ background-color: rgb(157,132,29); }
-#inline-popups .nda{ background-color: rgb(24,50,90);}
+#inline-popups .learnux{ background-color: rgb(149,215,205); }
+#inline-popups .nda{ background-color: rgb(228,140,138);}
 
 .more-projects{
 	text-align: center;
