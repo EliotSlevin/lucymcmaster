@@ -373,4 +373,12 @@ video {
 		margin-left: 20px !important;
 		margin-right: 20px !important;
 	}
+
+	.brl{
+		border-left: none;
+	}
+
+	.pl{
+		padding-left: 0px;
+	}
 }
