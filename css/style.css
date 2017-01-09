@@ -148,11 +148,19 @@ a:focus{ outline: none; }
 	color: white;
 }
 
+#inline-popups a li span{
+	font-size: 20px;
+	/*letter-spacing: 1px;*/
+	color: rgba(255,255,255,0.6);
+}
+
 #inline-popups .free-store{ background-image: url("../img/folio/free-store.jpg"); }
 #inline-popups .third-itteration{ background-image: url("../img/folio/co-lab.jpg"); }
 #inline-popups .rocket-reach{ background-image: url("../img/folio/rocket.jpg"); }
 #inline-popups .mindfull{ background-image: url("../img/folio/mindful.jpg"); }
 #inline-popups .flan{ background-image: url("../img/folio/flan.jpg"); }
+#inline-popups .learnux{ background-color: rgb(157,132,29); }
+#inline-popups .nda{ background-color: rgb(24,50,90);}
 
 .more-projects{
 	text-align: center;
