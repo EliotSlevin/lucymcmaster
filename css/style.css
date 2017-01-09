@@ -209,6 +209,10 @@ a:focus{ outline: none; }
 	overflow: hidden;
 }
 
+.ta-l{
+	text-align: left;
+}
+
 hr{
 	border: none;
 	height: 2px;
